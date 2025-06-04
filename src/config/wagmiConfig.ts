@@ -23,7 +23,7 @@ export const wagmiAdapter = new WagmiAdapter({
 const metadata = {
   name: 'appkit-example',
   description: 'AppKit Example',
-  url: 'https://appkitexampleapp.com', // origin must match your domain & subdomain
+  url: 'https://nfc-passport-webview.vercel.app/', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
@@ -38,7 +38,7 @@ createAppKit({
     socials: false,
   },
   metadata: metadata,
-  allWallets: 'HIDE',
+  allWallets: 'SHOW',
   allowUnsupportedChain: false,
   enableWalletGuide: false,
 });
