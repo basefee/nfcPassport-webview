@@ -35,7 +35,7 @@ createAppKit({
   defaultNetwork: bellecour,
   features: {
     email: true,
-    socials: true,
+    socials: ["x", "discord", "apple"],
   },
   metadata: metadata,
   allWallets: 'HIDE',
