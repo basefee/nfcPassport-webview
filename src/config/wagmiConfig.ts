@@ -34,11 +34,11 @@ createAppKit({
   projectId,
   defaultNetwork: bellecour,
   features: {
-    email: false,
-    socials: false,
+    email: true,
+    socials: true,
   },
   metadata: metadata,
-  allWallets: 'SHOW',
+  allWallets: 'HIDE',
   allowUnsupportedChain: false,
   enableWalletGuide: false,
 });
