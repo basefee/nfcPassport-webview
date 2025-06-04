@@ -38,7 +38,7 @@ createAppKit({
     socials: ["x", "discord", "apple"],
   },
   metadata: metadata,
-  allWallets: 'HIDE',
-  allowUnsupportedChain: false,
+  allWallets: 'SHOW',
+  allowUnsupportedChain: true,
   enableWalletGuide: false,
 });
